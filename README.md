@@ -25,4 +25,3 @@ Games for android
     * Go to the Settings > Developers Setting. 
     * **Allow USB debugging**. 
     * **Run** the project from the Android Studio IDE. 
-
