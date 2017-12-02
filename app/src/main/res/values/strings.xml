@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Asobimasu</string>
+
+    <!--Chess strings-->
+    <string name="chess_undo">UNDO</string>
+    <string name="chess_queen">Queen</string>
+    <string name="chess_bishop">Bishop</string>
+    <string name="chess_rook">Rook</string>
+    <string name="chess_knight">Knight</string>
+    <string name="chess_game_over">Game Over !!</string>
 </resources>
