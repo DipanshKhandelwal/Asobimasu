@@ -31,4 +31,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/snake_and_ladder_icon" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_gravity_balls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="normal"
+        app:layout_constraintStart_toEndOf="@+id/button_snake_and_ladder"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gravity_balls_icon" />
+
 </android.support.constraint.ConstraintLayout>
