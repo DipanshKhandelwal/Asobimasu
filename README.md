@@ -3,6 +3,8 @@ Games for android
 
 ## Screenshots
 <img src="screenshots/Chess.png" width="300">
+<img src="screenshots/gravityballs_1.png" width="300">
+<img src="screenshots/gravityballs_1.png" width="300">
  
 ## How to launch the project locally 
 1. Download **[Android Studio](https://developer.android.com/studio/index.html)** from the Google Developers site or using this [link](https://developer.android.com/studio/index.html). 
