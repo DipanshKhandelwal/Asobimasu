@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_page"
+    android:clickable="true"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context="com.example.dipansh.asobimasu.snakeAndLadder.SnakeAndLadderMainActivity">
 
-</android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/image_snakes_and_ladders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/snake_and_ladder_image"
+        android:scaleType="centerInside"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/text_snakes_and_ladders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:text="Snakes 'N Ladders"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tap_to_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:text="Tap to Play"
+        android:textSize="42sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
