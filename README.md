@@ -2,9 +2,21 @@
 Games for android 
 
 ## Screenshots
-<img src="screenshots/Chess.png" width="300">
-<img src="screenshots/gravityballs_1.png" width="300">
-<img src="screenshots/gravityballs_1.png" width="300">
+
+### Chess
+<table>
+  <tr>
+    <td><img src="screenshots/Chess.png" height = "480" width="270"></td>
+  </tr>
+</table>
+
+### Gravity Balls
+<table>
+  <tr>
+    <td><img src="screenshots/gravityballs_1.png" height = "480" width="270"></td>
+    <td><img src="screenshots/gravityballs_2.png" height = "480" width="270"></td>
+  </tr>
+</table>
  
 ## How to launch the project locally 
 1. Download **[Android Studio](https://developer.android.com/studio/index.html)** from the Google Developers site or using this [link](https://developer.android.com/studio/index.html). 
