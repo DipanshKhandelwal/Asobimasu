@@ -16,7 +16,7 @@
         android:text="Player 1's Turn"
         android:gravity="center_vertical"
         android:textColor="#ffffff"
-        android:textSize="42dp"
+        android:textSize="42sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -552,7 +552,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textColor="#ffffff"
             android:padding="4dp"
             android:layout_weight="1"/>
@@ -564,7 +564,7 @@
             android:text="Player 1"
             android:gravity="center_horizontal"
             android:textColor="#ffffff"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:padding="4dp"
             android:layout_weight="1"/>
 
@@ -605,7 +605,7 @@
             android:text="Player 2"
             android:gravity="center_horizontal"
             android:textColor="#ffffff"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:padding="4dp"
             android:layout_weight="1"/>
 
@@ -614,7 +614,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="0"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:textColor="#ffffff"
             android:padding="4dp"
             android:layout_weight="1"/>
