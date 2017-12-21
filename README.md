@@ -17,6 +17,13 @@ Games for android
     <td><img src="screenshots/gravityballs_2.png" height = "480" width="270"></td>
   </tr>
 </table>
+
+### Connect4
+<table>
+  <tr>
+    <td><img src="screenshots/connect4_screenshot.png" height = "480" width="270"></td>
+  </tr>
+</table>
  
 ## How to launch the project locally 
 1. Download **[Android Studio](https://developer.android.com/studio/index.html)** from the Google Developers site or using this [link](https://developer.android.com/studio/index.html). 
