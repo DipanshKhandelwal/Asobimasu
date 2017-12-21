@@ -1,4 +1,4 @@
-package com.example.user.connect4;
+package com.example.dipansh.asobimasu.connect4;
 
 import android.app.Activity;
 import android.graphics.Point;
@@ -21,7 +21,7 @@ import android.widget.TextView;
 public class MainActivityConnect4 extends Activity {
     private ImageView[][] cells;
     private View boardView;
-    private com.example.user.connect4.Board board;
+    private Board board;
     private ViewHolder viewHolder;
     private static int NUM_ROWS = 6;
     private static int NUM_COLS = 7;
@@ -35,7 +35,7 @@ public class MainActivityConnect4 extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        board = new com.example.user.connect4.Board(NUM_COLS, NUM_ROWS);
+        board = new Board(NUM_COLS, NUM_ROWS);
         boardView = findViewById(R.id.game_board);
         buildCells();
         boardView.setOnTouchListener(new View.OnTouchListener() {
@@ -122,7 +122,7 @@ public class MainActivityConnect4 extends Activity {
     }
 
     private void win() {
-        int color = board.turn == com.example.user.connect4.Board.Turn.FIRST ? getResources().getColor(R.color.primary_player) : getResources().getColor(R.color.secondary_player);
+        int color = board.turn == Board.Turn.FIRST ? getResources().getColor(R.color.primary_player) : getResources().getColor(R.color.secondary_player);
         viewHolder.winnerText.setTextColor(color);
         viewHolder.winnerText.setVisibility(View.VISIBLE);
     }

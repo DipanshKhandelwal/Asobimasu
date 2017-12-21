@@ -8,4 +8,11 @@
     <string name="chess_rook">Rook</string>
     <string name="chess_knight">Knight</string>
     <string name="chess_game_over">Game Over !!</string>
+
+
+    <!--connect4 strings-->
+    <string name="app_name">Connect4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

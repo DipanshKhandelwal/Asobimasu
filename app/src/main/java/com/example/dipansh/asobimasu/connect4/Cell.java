@@ -1,4 +1,4 @@
-package com.example.user.connect4;
+package com.example.dipansh.asobimasu.connect4;
 
 /**
  * Created by rachana on 12/12/2017.
