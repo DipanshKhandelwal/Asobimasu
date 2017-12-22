@@ -21,7 +21,7 @@ Games for android
 ### Connect4
 <table>
   <tr>
-    <td><img src="screenshots/connect4_screenshot.png" height = "480" width="270"></td>
+    <td><img src="screenshots/connect4_screenshot.jpeg" height = "480" width="270"></td>
   </tr>
 </table>
  
