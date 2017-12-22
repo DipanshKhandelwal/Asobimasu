@@ -12,7 +12,7 @@ import com.example.dipansh.asobimasu.snakeAndLadder.SnakeAndLadderMainActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    FloatingActionButton chess, snake_and_ladder, gravity_balls;
+    FloatingActionButton chess, snake_and_ladder, gravity_balls, connect4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         chess = (FloatingActionButton) findViewById(R.id.button_chess);
         snake_and_ladder = (FloatingActionButton) findViewById(R.id.button_snake_and_ladder);
         gravity_balls = (FloatingActionButton) findViewById(R.id.button_gravity_balls);
+        connect4 = (FloatingActionButton) findViewById(R.id.button_connect4);
 
         chess.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,5 +46,15 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(chess);
             }
         });
+
+
+        connect4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chess = new Intent(MainActivity.this, MainActivityConnect4.class);
+                MainActivity.this.startActivity(chess);
+            }
+        });
+
     }
 }

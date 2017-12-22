@@ -13,4 +13,11 @@
     <color name="chess_colorKingInDanger">#8dff0004</color>
     <color name="chess_backgroundBoard">#d9732b</color>
     <color name="choose">#898989</color>
+
+
+    <!--connect4 colors-->
+    <color name="board_bg">#4A90E2</color>
+    <color name="secondary_player">#FFD918</color>
+    <color name="primary_player">#FF000B</color>
+
 </resources>

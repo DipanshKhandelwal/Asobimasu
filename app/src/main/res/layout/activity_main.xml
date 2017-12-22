@@ -44,4 +44,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/gravity_balls_icon" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_connect4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:layout_constraintStart_toEndOf="@+id/button_connect4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/connect4_icon" />
+
 </android.support.constraint.ConstraintLayout>
