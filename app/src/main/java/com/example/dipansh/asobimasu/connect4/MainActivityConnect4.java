@@ -34,7 +34,7 @@ public class MainActivityConnect4 extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_connect4);
         board = new Board(NUM_COLS, NUM_ROWS);
         boardView = findViewById(R.id.game_board);
         buildCells();
