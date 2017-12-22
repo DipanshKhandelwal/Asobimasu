@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.dipansh.asobimasu.chess.ChessMainActivity;
+import com.example.dipansh.asobimasu.connect4.MainActivityConnect4;
 import com.example.dipansh.asobimasu.gravityBalls.GravityBallsMainActivity;
 import com.example.dipansh.asobimasu.snakeAndLadder.SnakeAndLadderMainActivity;
 
@@ -46,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 MainActivity.this.startActivity(chess);
             }
         });
-
 
         connect4.setOnClickListener(new View.OnClickListener() {
             @Override

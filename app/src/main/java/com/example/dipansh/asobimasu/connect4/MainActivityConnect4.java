@@ -17,6 +17,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.dipansh.asobimasu.R;
+
 
 public class MainActivityConnect4 extends Activity {
     private ImageView[][] cells;

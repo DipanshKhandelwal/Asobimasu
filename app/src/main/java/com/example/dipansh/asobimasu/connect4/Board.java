@@ -1,28 +1,26 @@
 package com.example.dipansh.asobimasu.connect4;
 
-
 /**
  * Created by rachana on 12/12/2017.
  */
 
 public class Board {
 
+    public com.example.dipansh.asobimasu.connect4.Board.Turn turn;
+
     private int numCols;
     private int numRows;
     public boolean hasWinner;
-    public com.example.user.connect4.Cell[][] cells;
+    public Cell[][] cells;
 
     public enum Turn {
         FIRST, SECOND
-
-}
-
-public Turn turn;
+    }
 
     public Board(int cols, int rows) {
         numCols = cols;
         numRows = rows;
-        cells = new com.example.user.connect4.Cell[cols][rows];
+        cells = new Cell[numCols][numRows];
         reset();
     }
 
@@ -31,7 +29,7 @@ public Turn turn;
         turn = Turn.FIRST;
         for (int col = 0; col < numCols; col++) {
             for (int row = 0; row < numRows; row++) {
-                cells [col][row] = new com.example.user.connect4.Cell();
+                cells [col][row] = new Cell();
             }
         }
     }
@@ -80,7 +78,7 @@ public Turn turn;
         if (col < 0 || col >= numCols || row < 0 || row >= numRows) {
             return false;
         }
-        com.example.user.connect4.Cell cell = cells[col][row];
+        Cell cell = cells[col][row];
         if (cell.player == player) {
             return isContiguous(player, dirX, dirY, col + dirX, row + dirY, count + 1);
         } else {

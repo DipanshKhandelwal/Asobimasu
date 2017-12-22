@@ -6,13 +6,13 @@ package com.example.dipansh.asobimasu.connect4;
 
 public class Cell {
     public boolean empty;
-    public  com.example.user.connect4.Board.Turn player;
+    public  Board.Turn player;
 
     public Cell() {
         empty = true;
     }
 
-    public void setPlayer(com.example.user.connect4.Board.Turn player) {
+    public void setPlayer(Board.Turn player) {
         this.player = player;
         empty = false;
     }

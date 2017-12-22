@@ -23,8 +23,8 @@
         <activity android:name=".snakeAndLadder.SnakeAndLadderMainActivity" />
         <activity android:name=".gravityBalls.GravityBallsMainActivity" />
         <activity android:name=".snakeAndLadder.SnakeAndLadderBoard" />
-        <activity android:name=".snakeAndLadder.SnakeAndLadderLastPage"></activity>
-        <activity android:name=".connect4.MainActivityConnect4"></activity>
+        <activity android:name=".snakeAndLadder.SnakeAndLadderLastPage"/>
+        <activity android:name=".connect4.MainActivityConnect4" />
     </application>
 
 </manifest>
