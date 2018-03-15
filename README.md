@@ -1,6 +1,6 @@
-# Asobimasu 
-Games for android 
+# Asobimasu [![Build Status](https://travis-ci.org/DipanshKhandelwal/Asobimasu.svg?branch=master)](https://travis-ci.org/DipanshKhandelwal/Asobimasu)
 
+Games for android
 ## Screenshots
 
 ### Chess
